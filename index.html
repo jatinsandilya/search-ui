@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://cdn.rawgit.com/chinchang/screenlog.js/2da51db0/dist/screenlog.min.js"></script>
+  <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.8/dist/global/Rx.umd.js"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <link rel="stylesheet" href="style.css"> 
+  <title>Suggestive Search UI</title>  
+</head>
+<body>
+  <div id="search-wrapper">
+    <div id="search-label">
+      <label>Search  </label>
+      <i class="fa fa-search"></i>
+    </div>
+    <div id="search-container">
+      <input type="text" id="search-input" list="search-datalist" placeholder="Search...">
+      <datalist id="search-datalist">
+            <!-- Suggestions here-->
+      </datalist>
+      <label id="search-error"> Oops! You may be disconnected. Please log back in.</label>
+    </div>
+  </div>
+</body>
+<script type='text/javascript' src="./index.js"></script>
+</html>

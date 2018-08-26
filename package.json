@@ -1,0 +1,9 @@
+{
+  "name": "typescript-pzbntg",
+  "description": "",
+  "homepage": "https://stackblitz.com/edit/typescript-pzbntg",
+  "dependencies": {
+    "rxjs": "6.2.2"
+  },
+  "version": "1.0.0"
+}
